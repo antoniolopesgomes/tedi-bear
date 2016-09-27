@@ -1,0 +1,40 @@
+{
+  "name": "tedi-bear",
+  "version": "0.0.1",
+  "description": "Authentication module for tedi framework",
+  "keywords": [
+    "tedi",
+    "express",
+    "authentication"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antoniolopesgomes/tedi"
+  },
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "António Gomes",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jasmine": "^2.2.34",
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-jasmine": "^2.4.0",
+    "gulp-sequence": "^0.4.5",
+    "gulp-typescript": "^2.13.6",
+    "jasmine": "^2.4.1",
+    "jasmine-promises": "^0.4.1",
+    "jasmine-spec-reporter": "^2.5.0",
+    "merge2": "^1.0.2",
+    "request-promise": "^3.0.0",
+    "supertest": "^1.2.0",
+    "supertest-as-promised": "^3.1.0",
+    "tedi": "file:///D:\\projects\\tedi\\dist",
+    "typescript": "^2.0.0"
+  },
+  "dependencies": {
+    "@types/jsonwebtoken": "^7.1.32",
+    "jsonwebtoken": "^7.1.9"
+  }
+}
