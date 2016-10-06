@@ -12,7 +12,8 @@ gulp.task('test', () =>
     gulp.src(SPEC_FILES)
         // gulp-jasmine works on filepaths so you can't have any plugins before it 
         .pipe(jasmine({
-            includeStackTrace: true
+            includeStackTrace: true,
+            stopSpecOnExpectationFailure: true,
         }))
 );
 

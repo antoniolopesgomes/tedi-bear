@@ -17,7 +17,10 @@
   "author": "António Gomes",
   "license": "MIT",
   "devDependencies": {
+    "@types/body-parser": "0.0.33",
     "@types/jasmine": "^2.2.34",
+    "@types/supertest-as-promised": "^2.0.32",
+    "body-parser": "^1.15.2",
     "del": "^2.2.1",
     "gulp": "^3.9.1",
     "gulp-jasmine": "^2.4.0",
@@ -34,7 +37,9 @@
     "typescript": "^2.0.0"
   },
   "dependencies": {
+    "@types/body-parser": "0.0.33",
     "@types/jsonwebtoken": "^7.1.32",
+    "body-parser": "^1.15.2",
     "jsonwebtoken": "^7.1.9"
   }
 }
